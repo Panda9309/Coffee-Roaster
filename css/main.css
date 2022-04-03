@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/barlow-v11-latin-regular.woff2') format('woff2'), 
+    url('../fonts/barlow-v11-latin-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/barlow-v11-latin-700.woff2') format('woff2'), 
+    url('../fonts/barlow-v11-latin-700.woff') format('woff');
+}
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'),
+    url('../fonts/fraunces-v10-latin-900.woff') format('woff');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Fraunces', 'Barlow' sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+}
+.btn {
+    background: #0E8784;
+    border-radius: 6px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding: 15px 31px 16px 31px;
+    color: #FEFCF7;
+    border: none;
+    cursor: pointer;
+    transition: all 500ms linear 0s;
+}
+.btn:hover {
+    background: #66D2CF;
+    border-radius: 6px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.btn:active {
+    background: transparent;
+    border-radius: 6px;
+    transform: scale(0.9 0.9);
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.header {
+    margin-top: 44px;
+    margin-bottom: 45px;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list {
+    width: 283px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+/* ------------------ Hero ------------------ */
+
+.hero {
+    margin-bottom: 136px;
+}
+.hero__container {
+    background-image: url(../images/hero-bg.jpg);
+    padding: 117px 702px 116px 85px;
+    border-radius: 10px;
+}
+.hero__wrapper {
+    width: 493px;
+}
+.hero__heading {
+    width: 493px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+.hero__text {
+    width: 418px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin-bottom: 56px;
+}
+
+/* ------------------ Collection ------------------ */
+
+.collection__container {
+    background-image: url(../images/our-collection.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.collection__list {
+    width: 1111px;
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.collection__item {
+    transition: all 200ms linear 0s;
+}
+.collection__item:hover {
+    transform: scale(1.05, 1.05);
+}
+.collection__text {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #333D4B;
+}
+.collection__subtext {
+    width: 255px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
