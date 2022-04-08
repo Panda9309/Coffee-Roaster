@@ -88,6 +88,11 @@ img {
 .header {
     margin-top: 44px;
     margin-bottom: 45px;
+    background-color: #fff;
+    padding: 10px 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .header__container {
     display: flex;
