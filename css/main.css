@@ -150,6 +150,12 @@ img {
     opacity: 0.8;
     margin-bottom: 56px;
 }
+.hero__btn {
+    width: 238px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 /* ------------------ Collection ------------------ */
 
