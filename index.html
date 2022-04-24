@@ -10,16 +10,16 @@
     <title>Cofferoasters</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container header__container">
             <img class="header__logo" src="./images/header-logo.svg" alt="header-logo" width="237">
             <ul class="header__list">
                 <li class="header__item">
-                    <a class="header__link" href="./index.html">home</a>
+                    <a class="header__link" href="#main">home</a>
                 </li>
                 <li class="header__item">
                     <a class="header__link" href="./about.html">about us</a>
-                </li>
+                </li>   
                 <li class="header__item">
                     <a class="header__link" href="#">create your plan</a>
                 </li>
@@ -178,5 +178,17 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        var header = document.getElementById('header');
+        window.onscroll = function () {
+            if (window.scrollY > 22) {
+                header.classList.add('scrolled');
+            }
+            else {
+                header.classList.remove('scrolled');
+            }
+        };
+    </script>
 </body>
 </html>

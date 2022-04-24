@@ -10,7 +10,7 @@
     <title>About Us</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container header__container">
             <a class="logo-link" href="#">
                 <img class="header__logo" src="./images/header-logo.svg" alt="header-logo" width="237">
@@ -128,5 +128,16 @@
             </div>
         </div>
     </footer>
+    <script>
+        var header = document.getElementById('header');
+        window.onscroll = function () {
+            if (window.scrollY > 22) {
+                header.classList.add('scrolled');
+            }
+            else {
+                header.classList.remove('scrolled');
+            }
+        };
+    </script>
 </body>
 </html>
