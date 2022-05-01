@@ -1,0 +1,38 @@
+.quality-about {
+    & {
+        margin-bottom: 168px;
+    }
+    &__container {
+        position: relative;
+        display: flex;
+        padding: 88px 655px 176px 85px;
+        background: #2C343E;
+        border-radius: 10px;
+    }
+    &__wrapper {
+        width: 540px;
+    }
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        opacity: 0.8;
+    }
+    &__img {
+        margin-top: -177px;
+        margin-left: 665px;
+        position: absolute;
+    }
+}

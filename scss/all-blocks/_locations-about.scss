@@ -1,0 +1,46 @@
+.locations-about {
+    & {
+        margin-bottom: 168px;
+    }
+    &__container {
+        width: 1045px;
+        margin-left: 85px;
+    }
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: $grey;
+        margin-bottom: 137px;
+    }
+    &__list {
+        width: 1045px;
+        display: flex;
+    }
+    &__item + &__item {
+        margin-left: 95px;
+    }
+    &__img {
+        margin-bottom: 30px;
+    }
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-bottom: 24px;
+    }
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        margin-bottom: 8px;
+    }
+}

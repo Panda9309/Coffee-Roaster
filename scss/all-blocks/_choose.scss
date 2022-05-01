@@ -1,0 +1,94 @@
+.choose {
+    & {
+        margin-bottom: 351px;
+    }
+    &__container {
+        position: relative;
+        padding-top: 115px;
+        padding-bottom: 318px;
+        border-radius: 10px;
+        background-color: #282F38;
+    }
+    &__wrapper {
+        width: 540px;
+        margin: auto;
+    }
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+    &__subtext {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        opacity: 0.8;
+    }
+    &__list {
+        width: 1230px;
+        margin-top: 86px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        cursor: pointer;
+        margin: auto;
+        padding-top: 72px;
+        width: 350px;
+        background: #0E8784;
+        border-radius: 8px;
+    }
+    &__item + &__item {
+        margin-left: 30px;
+    }
+    &__item-wrapper1::before {
+        content: url(../images/cofe-bean.svg);
+    }
+    &__item-wrapper2::before {
+        content: url(../images/gift.svg);
+    }
+    &__item-wrapper3::before {
+        content: url(../images/delivery.svg);
+    }
+    &__item-wrapper3 {
+        padding-top: 23px;
+    }
+    &__item-wrapper {
+        width: 255px;
+        margin: auto;
+        text-align: center;
+    }
+    &__item-text {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+        margin-bottom: 24px;
+        margin-top: 56px;
+    }
+    &__item-subtext {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        margin-bottom: 48px;
+    }
+}

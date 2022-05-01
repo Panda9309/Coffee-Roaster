@@ -1,0 +1,32 @@
+.commit-about {
+    & {
+        margin-bottom: 168px;
+    }
+    &__container {
+        width: 1110px;
+        display: flex;
+        align-items: center;
+    }
+    &__wrapper {
+        width: 540px;
+        margin-left: 125px;
+    }
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+        margin-bottom: 32px;
+    }
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        opacity: 0.8;
+    }
+}

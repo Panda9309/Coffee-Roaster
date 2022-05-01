@@ -1,0 +1,70 @@
+.work {
+    & {
+        margin-bottom: 200px;
+    }
+    &__container {
+        padding-left: 86px;
+        padding-right: 86px;
+    }
+    &__title {
+        margin: auto;
+        margin-bottom: 178px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+    &__list::before {
+        content: url(../images/line.svg);
+        width: 750px;
+        position: absolute;
+        margin-top: -101px;
+    }
+    &__list {
+        margin: auto;
+        display: flex;
+        margin-bottom: 64px;
+        flex-wrap: wrap;
+    }
+    &__item::before {
+        content: url(../images/circle.svg);
+        position: absolute;
+        margin-top: -104px;
+    }
+    &__item {
+        width: 285px;
+    }
+    &__item + &__item {
+        margin-left: 95px;
+    }
+    &__item-num {
+        margin-bottom: 38px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+    }
+    &__item-title {
+        width: 255px;
+        margin-bottom: 42px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    }
+    &__item-subtitle {
+        width: 285px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}

@@ -1,0 +1,30 @@
+.hero-about {
+    & { 
+        margin-bottom: 168px;
+    }
+    &__container {
+        background-image: url(../images/au-hero-bg.png);
+        padding: 137px 750px 137px 85px;
+        border-radius: 10px;
+    }
+    &__wrapper {
+        width: 445px;
+    }
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 24px;
+    }
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}
