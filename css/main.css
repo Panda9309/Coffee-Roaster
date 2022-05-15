@@ -1168,7 +1168,6 @@ img {
 /* ---------------- select section --------------  */
 
 .select-create {
-  width: 273px;
   border: 1px solid red;
 }
 
@@ -1181,8 +1180,13 @@ img {
   color: rgba(51, 61, 75, 0.3);
 
   display: flex;
+  flex-direction: column;
   cursor: pointer;
 }
+.select-create__item > h4:first-child {
+  display: flex;
+}
 .select-create__item::after {
-  
+  display: block;
+  content: url(../images/line2.svg);
 }
