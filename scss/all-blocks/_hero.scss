@@ -8,7 +8,7 @@
         border-radius: 10px;
     }
     &__wrapper {
-    width: 493px;
+        width: 493px;
     }
     &__heading {
         width: 493px;
@@ -36,5 +36,55 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero {
+        
+        & {
+            margin-bottom: 144px;
+        }
+        
+        &__container {
+            background-image: url(../images/hero-bg.jpg);
+            padding: 104px 233px 104px 58px;
+            border-radius: 10px;
+        }
+        
+        &__wrapper {
+            width: 398px;
+        }
+        
+        &__heading {
+            width: 329px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 48px;
+            color: #FEFCF7;
+            margin-bottom: 24px;
+        }
+        
+        &__text {
+            width: 388px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            opacity: 0.8;
+            margin-bottom: 40px;
+        }
+        
+        &__btn {
+            width: 238px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
     }
 }

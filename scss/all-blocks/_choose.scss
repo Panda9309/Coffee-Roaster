@@ -92,3 +92,107 @@
         margin-bottom: 48px;
     }
 }
+@media screen and (max-width: 768px) {
+    .choose {
+        & {
+            margin-bottom: 434px;
+        }
+        &__container {
+            position: relative;
+            border-radius: 10px;
+            background-color: #282F38;
+            padding-bottom: 385px;
+            margin-top: 56px;
+            margin-bottom: 368px;
+        }
+        &__heading {
+            width: 264px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+            color: #FEFCF7;
+            margin: auto;
+            margin-bottom: 24px;
+        }
+        &__subtext {
+            width: 496px;
+            margin: auto;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            opacity: 0.8;
+        }
+        &__wrapper {
+            width: 540px;
+            margin: auto;
+        }
+        &__list {
+            width: 573px;
+            margin-top: 86px;
+            margin: 86px 58px 0px 57px;
+            position: absolute;
+            display: flex;
+        }
+        &__item {
+            margin: auto;
+            width: 573px;
+            background: #0E8784;
+            border-radius: 8px;
+            padding: 0;
+        }
+        &__item + &__item {
+            margin-top: 24px;
+            margin-left: auto;
+        }
+        &__item-wrapper {
+            width: 344px;
+            margin-left: 70px;
+            margin-right: 48px;
+            display: flex;
+            align-items: center;
+        }
+        &__item-img {
+            margin-left: 0;
+            margin-right: 55px;
+        }
+        &__item-img1::before {
+            content: url(../images/cofe-bean.svg);
+        }
+        &__item-img2::before {
+            content: url(../images/gift.svg);
+        }
+        &__item-img3::before {
+            content: url(../images/delivery.svg);
+        }
+        &__item-text {
+            width: 255px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #FEFCF7;
+            margin-top: 41px;
+            margin-bottom: 16px;
+            text-align: left;
+        }
+        &__item-subtext {
+            width: 344px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            margin-bottom: 41px;
+            text-align: left;
+        }
+    }
+}

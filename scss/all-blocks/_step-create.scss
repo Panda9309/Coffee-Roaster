@@ -1,0 +1,92 @@
+.step-create {
+    & {
+        margin-bottom: 159px;
+    }
+    &__container {
+        width: 1280px;
+        background: #2C343E;
+        border-radius: 10px;
+        padding: 199px 86px 107px 81px;
+    }
+    
+    &__title {
+        margin: auto;
+        margin-bottom: 178px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+    
+    &__list {
+        margin: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+    }
+    
+   &__item::before {
+        content: url(../images/line.svg);
+        position: absolute;
+        margin-top: -101px;
+        margin-left: 15px;
+    }
+
+    &__item:nth-child(3n+3)::before {
+        content: none;
+    }
+
+    &__item:last-child::before {
+        content: none;
+    }
+    
+    &__item {
+        width: 285px;
+    }
+    
+    &__item + &__item {
+        margin-left: 95px;
+    }
+    
+    &__item-num {
+        margin-bottom: 38px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+    }
+
+    &__item-num::before {
+        content: url(../images/circle2.svg);
+        position: absolute;
+        margin-top: -134px;
+    }
+    
+    &__item-title {
+        width: 255px;
+        margin-bottom: 42px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #FEFCF7;
+    }
+    
+    &__item-subtitle {
+        width: 285px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}

@@ -3,15 +3,15 @@
         margin-bottom: 177px;
     }
     &__container {
-        background-image: url(./images/Bitmap-min.png);
+        background-image: url(../images/Bitmap-min.png);
+        padding: 134px 709px 132px 85px;
         border-radius: 10px;
     }
     &__wrapper {
         width: 485px;
-        border: 1px solid red;
     }
     &__heading {
-        font-family: 'Fraunces 9pt';
+        font-family: 'Fraunces';
         font-style: normal;
         font-weight: 900;
         font-size: 72px;
